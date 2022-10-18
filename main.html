@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+                <html lang='pt-BR'>
+                                    <head>
+                                            <meta charset ='UTF-8'>
+                                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                                            <title>Sorteio Cores</title>
+                                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                                            <link rel="stylesheet" href="mainstyle.css">
+                                            <script src="mainscript.js"></script>
+                                            
+                                    </head>
+
+                                    <body class="gradient">
+
+                                            <header>
+                                                <h1>SORTEIO EM PARES</h1>
+                                            </header>
+
+                                            <main>
+                                                    <div>
+
+                                                        <ul>
+                                                            <h3 class="centralize">ATENÇÃO</h3>
+                                                            <p class="centralize">Regra de uso: Separe tudo por ','(VIRGULA)<br> as listas devem ter a mesma quantidade de informações</p>                                   
+                                                            <li>
+                                                                <label>Lista-1</label>
+                                                                <input id="Lista1",name="Lista1", type="text",color="black", placeholder="pessoa1,pessoa2,Pessoa3...pessoaN-1",  autocomplete="off",maxlength="50" >
+                                                            </li>
+                                                            <li>
+                                                                <label>Lista-2</label>
+                                                                <input id="Lista2",  name="Lista2", type="text",color="black", placeholder="🔴,🟡,🟢,🔵,🟣,⚫", autocomplete="off",maxlength="50" >
+                                                            </li>
+                                                            <li>
+
+                                                                <button class="buttonStart" onclick="Sorteio(document.getElementByID('Lista1'), document.getElementByID('Lista2'))" type="button">Start!</button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <p id="info"></p>
+                                                    </div>
+                                            </main>
+
+                                            <footer>
+
+                                            </footer>
+                                    </body>
+
+
+
+                </html>
