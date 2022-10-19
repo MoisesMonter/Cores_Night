@@ -1,1 +1,1 @@
-# sort
+# Esse foi um pequeno projeto que resolvir desenvolver em prol a uma brincadeira de um grupo de rolê, tirei do meu tempo para fazer um mini sistema de sorteio para a gente

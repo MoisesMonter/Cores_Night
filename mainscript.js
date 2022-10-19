@@ -4,32 +4,36 @@ function Sorteio(){
     let input2 = document.querySelector("#Lista2");
     var l2 = input2.value;
 
-    var list1 = l1.split(",");
+    const list1 = l1.replace(".",",").split(',');
 
-    var list2 = l2.split(",");
+    const list2 = l2.replace(".",",").split(',');
     var result = ""
+    shuffleArray(list1);
+    shuffleArray(list2);
     if (l1 == "" || l2 == "")
     {
        alert("Opa... tem Lista vasia aí irmão") 
     }
     else
     {
-        resultado.innerHTML = l1.value;
+        console.log(list1.value)
         if (list1.length == list2.length)
         {
-           
-            for (let i = 0; i <= list1.length; i++)
-            {
-                result += list1[i] + "\n" + list2[i]
+            for(let i = 0; i < list1.length; i++){
+                result += '<br>'+list1[i] + ' ' + list2[i] + '<br><br>'
+                
             }
-             
+            document.getElementById('info').innerHTML = result;
         }
+
         else
         {
             alert("As listas devem ter o mesmo número de informações")
         }
+        
     }
-    
-    resultado.innerHTML = list1
+
 }
-    //resultado.innerHTML = string
+function shuffleArray(inputArray){
+    inputArray.sort(()=> Math.random() - 0.5);
+}
