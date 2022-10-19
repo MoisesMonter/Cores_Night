@@ -1,1 +1,57 @@
-# Esse foi um pequeno projeto que resolvir desenvolver em prol a uma brincadeira de um grupo de rolê, tirei do meu tempo para fazer um mini sistema de sorteio para a gente
+<!DOCTYPE html>
+                <html lang='pt-BR'>
+                                    <head>
+                                            <meta charset ='UTF-8'>
+                                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                                            <title>Sorteio Cores</title>
+                                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                                            <link rel="stylesheet" href="mainstyle.css">
+                                            <script src="mainscript.js"></script>
+                                            
+                                    </head>
+
+                                    <body class="gradient">
+
+                                            <header>
+                                                <h1>SORTEIO EM PARES</h1>
+                                            </header>
+
+                                            <main>
+                                                    <div>
+
+                                                        <ul>
+                                                            <h3 class="centralize">ATENÇÃO</h3>
+                                                            <p class="centralize">🔴,🟡,🟢,🔵,🟣,⚫<br>Tem RollêWeen essa noite...</p>
+                                                            <p class="centralize">Regra de uso: Separe tudo por "," (VIRGULA)<br> as listas devem ter a mesma quantidade de informações</p>                                   
+                                                            <li>
+                                                                <label>Lista-1</label>
+                                                                <input id="Lista1",name="Lista1", type="text",color="black", placeholder="pessoa1,pessoa2,Pessoa3...pessoaN-1",  autocomplete="off",maxlength="50" >
+                                                            </li>
+                                                            <li>
+                                                                <label>Lista-2</label>
+                                                                <input id="Lista2",  name="Lista2", type="text",color="black", placeholder="🔴,🟡,🟢,🔵,🟣,⚫", autocomplete="off",maxlength="50" >
+                                                            </li>
+                                                            <li>
+
+                                                                <button class="buttonStart" onclick="Sorteio()" type="button">Start!</button>
+                                                            </li>
+                                                            <li class="info">
+                                                                <p id="info"></p>
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div>
+                                                        
+                                                    </div>
+                                            </main>
+
+                                            <footer>
+                                                <p class="centralize" id="pfoot">Conheça meu <p><a class="centralize" href="https://github.com/MoisesMonter" target='_blank'>Github<a></a>
+                                            </footer>
+                                            <script src="mainscript.js"></script>
+                                    </body>
+
+
+
+                </html>
