@@ -3,8 +3,10 @@ function Sorteio(){
     var l1 = input1.value;
     let input2 = document.querySelector("#Lista2");
     var l2 = input2.value;
-    if (input2.value == ""){
-        document.getElementById('#input2').innerHTML ="🔴,🟡,🟢,🔵,🟣,⚫";
+   
+    if (l2.length == 0){
+        console.log(l2.length)
+        l2+="🔴,🟡,🟢,🔵,🟣,⚫";
     }
     const list1 = l1.replace(".",",").split(',');
 
