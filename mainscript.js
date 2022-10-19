@@ -3,13 +3,10 @@ function Sorteio(){
     var l1 = input1.value;
     let input2 = document.querySelector("#Lista2");
     var l2 = input2.value;
-   
-    if (l2.length == 0){
-        console.log(l2.length)
-        l2+="🔴,🟡,🟢,🔵,🟣,⚫";
-    }
+   if (l2.length == 0){
+     l2 += "🔴,🟡,🟢,🔵,🟣,⚫";
+   }
     const list1 = l1.replace(".",",").split(',');
-
     const list2 = l2.replace(".",",").split(',');
     var result = ""
     shuffleArray(list1);
@@ -20,7 +17,6 @@ function Sorteio(){
     }
     else
     {
-        console.log(list1.value)
         if (list1.length == list2.length)
         {
             for(let i = 0; i < list1.length; i++){
@@ -32,7 +28,7 @@ function Sorteio(){
 
         else
         {
-            alert("As listas devem ter o mesmo número de informações")
+            document.getElementById('info').innerHTML = "<br>As listas devem ter o mesmo número de informações";
         }
         
     }
