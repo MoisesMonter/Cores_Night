@@ -6,8 +6,11 @@ function addParticipantInput() {
     input.className = "participantInput";
     input.type = "text";
     input.placeholder = "Digite o nome do participante...";
+
+
     button.className = "removeParticipantButton";
     button.type = "button";
+    button.setAttribute("tabindex","-1");
     const trashIcon = document.createElement("img");
     trashIcon.src = "https://img.icons8.com/material-rounded/24/000000/full-trash.png";
     trashIcon.width = 17;
@@ -20,8 +23,8 @@ function addParticipantInput() {
     li.appendChild(input);
     li.appendChild(button);
     participantsList.appendChild(li);
+    input.focus();
 }
-
 function removeParticipantInput(li) {
     li.remove();
 }
