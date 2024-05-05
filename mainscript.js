@@ -74,7 +74,7 @@ function Sorteio() {
         // Remove a cor sorteada da lista de cores disponíveis
         availableColors.splice(randomIndex, 1);
 
-        result += participant + " " + randomColor + "<br><br>";
+        result += participant + " " + randomColor + "<br>";
     });
 
     document.getElementById('info').innerHTML = result;

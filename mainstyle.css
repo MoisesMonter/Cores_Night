@@ -25,19 +25,38 @@ header {
     margin-bottom: 50px;
     font-size: 30px;
 }
-
+.info{
+    background-color: #5309527b;
+    gap:5px;
+    align-items: center;
+    border-radius: 10px;
+    min-width: 0px;
+    margin: 10px;
+    width: auto;
+    margin: 0px;
+}
+a{background-color: #000000;
+border-radius: 2px;
+padding: 0px 3px 0px 3px;}
 #button_participant{
     color: azure;
-    background: linear-gradient(-45deg, #ffd5ff, #dfa0df, #bf6bbf, #530952, #3f043e, #2b0029);
+    background: linear-gradient(45deg, 
+        #000000, 
+        #1d1d1e, 
+        #353434, 
+        #4e4d4d, 
+        #6a6969, 
+        #adaaaa,
+        #e6e5e5 
+    );
     background-size: 500% 500%;
     animation: colors 15s ease infinite;
-    /* width: 80px; */
-    /* height: 30px; */
-    border-radius: 5px;
+    border-radius: 2px;
+    padding: 0px 2px 0px 2px;
     cursor: pointer;
     outline: none;
     border: none;
-    box-shadow: 0 5px rgba(108, 63, 192, 0.219);
+    box-shadow: 0 5px rgba(33, 32, 34, 0.619);
     transform: translateY(4px);
     margin-bottom: 30px;
 }
@@ -47,10 +66,9 @@ input{
     border-radius: 5px;
     outline: none;
     padding-left: 10px;
-    box-shadow: 0 0 0 1px inset; /* Cria uma "borda interna" */
+    box-shadow: 0 0 0 1px inset;
 }
 li#participants li{
-    /* background-color: #190b10; */
     display:flex;
     flex-direction: row;
     width: 100px;
@@ -59,7 +77,6 @@ li#participants li{
 }
 li#participants li button{
     background-color: #fafafa;
-    /* box-shadow: 1px 1px 2px 2px rgb(253, 253, 253); */
     border: 0px solid #0b0b0b; 
     border-radius: 5px;
     padding: 2px 15px 2px 15px;
@@ -67,25 +84,22 @@ li#participants li button{
     font-size: medium;
     color:rgb(41, 41, 41);
     
-    /* height: 50px; */
-    
 }
 
 .gradient-overlay {
-    background: linear-gradient(45deg, 
-    rgba(0, 0, 0, 0.5), /* Preto com 50% de opacidade */
-    rgba(93, 53, 53, 0.5), /* Verde escuro com 50% de opacidade */
-    rgba(139, 79, 79, 0.4), /* Verde com 50% de opacidade */
-    rgba(224, 52, 52, 0.5), /* Cinza claro com 50% de opacidade */
-    rgba(224, 52, 101, 0.5), /* Cinza com 50% de opacidade */
-    rgba(104, 33, 118, 0.5), /* Roxo escuro com 50% de opacidade */
-    rgba(71, 23, 41, 0.5), /* Roxo com 50% de opacidade */
-    rgba(0, 0, 0, 0.8) /* Preto com 50% de opacidade */
+    background: linear-gradient(35deg, 
+    rgba(16, 16, 16, 0.87),
+    rgba(30, 30, 30, 0.803),
+    rgba(255, 0, 0, 0.332),
+    rgba(255, 0, 0, 0.412),
+    rgba(19, 19, 19, 0.938),    
+    rgba(7, 7, 7, 0.91),
+    rgba(6,6,6)
 );
 width: 100%;
 height: 150%;
 background-size: 350% 350%;
-animation: colors 5s ease infinite;
+animation: colors 10s ease infinite;
 display: flex;
 flex-direction: column;
 }
@@ -97,11 +111,7 @@ h1, h3{
  border-radius: 10px;
 }
 .gradient {
-    /* height: 100vh; */
-    /* width: 100vw; */
-    background-image: url("https://imgs.search.brave.com/fisqia382e081o9PTPnx28pN1aQpQ5UuoGB9C30l-lo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTE5ZlN0RHJISkwu/anBn");
-    /* background: linear-gradient(45deg, #f3afc0, #d08ea0, #ac6e7f, #662c3e, #4c212f, #33161f, #190b10); */
-
+    background-image: url("https://assets-prd.ignimgs.com/2022/12/14/scream-6-poster-1671028042759.jpeg");
     background-size: 150% 100%;
     animation: colors 15s ease infinite;
     display: flex;
@@ -154,16 +164,26 @@ input {
 
 .buttonStart {
     color: azure;
-    background: linear-gradient(-45deg,  #530952, #3f043e, #2b0029,#ffd5ff, #dfa0df, #bf6bbf);
+
+    background: linear-gradient(45deg, 
+    #e6e5e5,
+    #adaaaa,
+    #6a6969,
+    #4e4d4d, 
+    #353434, 
+    #1d1d1e,
+    #000000 
+);
     background-size: 500% 500%;
     animation: colors 15s ease infinite;
     /* width: 80px;
     height: 30px; */
-    border-radius: 5px;
+    border-radius: 2px;
+    padding :0px 2px 0px 2px;
     cursor: pointer;
     outline: none;
     border: none;
-    box-shadow: 0 5px rgba(108, 63, 192, 0.219);
+    box-shadow: 0 5px rgba(25, 25, 25, 0.219);
     transform: translateY(4px);
     margin-bottom: 30px;
 }
@@ -202,7 +222,7 @@ input {
 
 footer {
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 footer a {
