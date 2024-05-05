@@ -88,10 +88,9 @@ li#participants li button{
 
 .gradient-overlay {
     background: linear-gradient(35deg, 
-    rgba(16, 16, 16, 0.87),
-    rgba(30, 30, 30, 0.803),
-    rgba(255, 0, 0, 0.332),
-    rgba(255, 0, 0, 0.412),
+    rgba(16 16 16 / 0.12),
+    rgba(30 30 30 / 0.01),
+    rgba(255 0 0 / 0.46),
     rgba(19, 19, 19, 0.938),    
     rgba(7, 7, 7, 0.91),
     rgba(6,6,6)
@@ -111,7 +110,7 @@ h1, h3{
  border-radius: 10px;
 }
 .gradient {
-    background-image: url("https://assets-prd.ignimgs.com/2022/12/14/scream-6-poster-1671028042759.jpeg");
+    background-image: url("image.jpeg");
     background-size: 150% 100%;
     animation: colors 15s ease infinite;
     display: flex;
