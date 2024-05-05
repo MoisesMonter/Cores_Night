@@ -1,57 +1,50 @@
 <!DOCTYPE html>
-                <html lang='pt-BR'>
-                                    <head>
-                                            <meta charset ='UTF-8'>
-                                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                                            <title>Sorteio Cores</title>
-                                            <meta name="viewport" content="width=device-width, initial-scale=1">
-                                            <link rel="stylesheet" href="mainstyle.css">
-                                            <script src="mainscript.js"></script>
-                                            
-                                    </head>
+<html lang="pt-BR">
 
-                                    <body class="gradient">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sorteio Cores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
 
-                                            <header>
-                                                <h1>SORTEIO EM PARES</h1>
-                                            </header>
+<body class="gradient">
+    <div class="gradient-overlay">
+    <header>
+        <h1>SCREAM-COLORS!!</h1>
+    </header>
 
-                                            <main>
-                                                    <div>
+    <main>
+        <h3 class="centralize">Cores</h3>
+        <div>
+            <ul>
+                
+                <p class="centralize"><br>Lista de Cores</p>
+                <input id="colorListInput" type="text" placeholder="🔴,🟡,🟢,🔵,🟣,⚫">
 
-                                                        <ul>
-                                                            <h3 class="centralize">ATENÇÃO</h3>
-                                                            <p class="centralize">🔴,🟡,🟢,🔵,🟣,⚫<br>Tem Rollê-cores essa noite...</p>
-                                                            <p class="centralize">Regra de uso: Separe tudo por "," (VIRGULA)<br> as listas devem ter a mesma quantidade de informações</p>                                   
-                                                            <li>
-                                                                <label>Lista-1</label>
-                                                                <input id="Lista1",name="Lista1", type="text",color="black", placeholder="nome1,nome2,nome3...",  autocomplete="off",maxlength="50" >
-                                                            </li>
-                                                            <li>
-                                                                <label>Lista-2</label>
-                                                                <input id="Lista2",  name="Lista2", type="text",color="black", placeholder="🔴,🟡,🟢,🔵,🟣,⚫", autocomplete="off",maxlength="50" >
-                                                            </li>
-                                                            <li>
+                <p class="centralize">Regra de uso: Separe tudo por "," (VIRGULA)<br> a lista terá a mesma quantidade de participantes<br><br>LISTA DE PARTICIPANTES</p>
+                <li id="participants">
 
-                                                                <button class="buttonStart" onclick="Sorteio()" type="button">Start!</button>
-                                                            </li>
-                                                            <li class="info">
-                                                                <p id="info"></p>
-                                                            </li>
-                                                        </ul>
+                    <button id="button_participant" class="addParticipantButton" onclick="addParticipantInput()" type="button">Adicionar Participante</button>
+                </li>
+                <li>
+                    <button class="buttonStart" onclick="Sorteio()" type="button">Sortear Cores</button>
+                </li>
+                <li class="info">
+                    <p id="info"></p>
+                </li>
+            </ul>
+        </div>
+        <div></div>
+    </main>
 
-                                                    </div>
-                                                    <div>
-                                                        
-                                                    </div>
-                                            </main>
+    <footer>
+        <p class="centralize" id="pfoot">Conheça meu <a href="https://github.com/MoisesMonter" target="_blank">Github</a></p>
+    </footer>
 
-                                            <footer>
-                                                <p class="centralize" id="pfoot">Conheça meu <p><a class="centralize" href="https://github.com/MoisesMonter" target='_blank'>Github<a></a>
-                                            </footer>
-                                            <script src="mainscript.js"></script>
-                                    </body>
+    <script src="mainscript.js"></script>
+   </div>
+</body>
 
-
-
-                </html>
+</html>
