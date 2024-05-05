@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-    
+   
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
     list-style-type: none;
     font-family:'Roboto', sans-serif;
 }
-
+body{background-color: black; }
 p{
     /* margin-top: 10px; */
     margin: 10px;
@@ -112,7 +112,7 @@ h1, h3{
 .gradient {
     background-image: url("image.jpeg");
     background-size: 150% 100%;
-    animation: colors 15s ease infinite;
+    animation: colors 15s  infinite;
     display: flex;
     flex-direction: column;
 }
