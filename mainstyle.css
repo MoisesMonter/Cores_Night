@@ -382,8 +382,7 @@ input {
     }
 }
 
-@media only screen and (max-width:400px){
-    /* Estilos para dispositivos móveis */
+@media only screen and (max-width:500px){
     p{
         font-size: smaller;
     }
@@ -397,8 +396,10 @@ input {
         min-width: max-content;
 
     }
-    p{font-size: small};
-
+    p{font-size: small;}
+    footer a{
+        font-size: 15px;
+    }
     .gradient {
         align-self: center;
         width: min-content;
@@ -416,3 +417,216 @@ input {
         max-width:260px;
     }
   }
+
+@media only screen and (max-width:200px){
+    p{
+        font-size: smaller;
+    }
+    footer{ 
+        margin-top: 19.5ch;}
+    .gradient-overlay{
+        width: min-content;
+        height: min-content;
+        align-items:center;
+        width: 100%;
+        min-width: max-content;
+
+    }
+    p{font-size: small;}
+    footer a{
+        font-size: 15px;
+    }
+    .gradient {
+        align-self: center;
+        width: min-content;
+        height:130%;
+        min-width: 100%;
+        
+        /* min-height: 6000px; */
+    }
+    b{
+        word-break: break-all;
+
+    }
+    input{
+        width: auto;
+        max-width:260px;
+    }
+}
+@media only screen and (max-width:180px){
+    p{
+        font-size: smaller;
+    }
+    footer{ 
+        margin-top: 30.5ch;}
+    .gradient-overlay{
+        width: min-content;
+        height: min-content;
+        align-items:center;
+        width: 100%;
+        min-width: max-content;
+
+    }
+    p{font-size: small;}
+    footer a{
+        font-size: 15px;
+    }
+    .gradient {
+        align-self: center;
+        width: min-content;
+        height:130%;
+        min-width: 100%;
+        
+        /* min-height: 6000px; */
+    }
+    b{
+        word-break: break-all;
+
+    }
+    input{
+        width: auto;
+        max-width:260px;
+    }
+}
+
+
+@media only screen and (max-width:140px){
+    p{
+        font-size: smaller;
+    }
+    footer{ 
+        margin-top: 40.5ch;}
+    .gradient-overlay{
+        width: min-content;
+        height: min-content;
+        align-items:center;
+        width: 100%;
+        min-width: max-content;
+
+    }
+    p{font-size: small;}
+    footer a{
+        font-size: 15px;
+    }
+    .gradient {
+        align-self: center;
+        width: min-content;
+        height:130%;
+        min-width: 100%;
+        
+        /* min-height: 6000px; */
+    }
+    b{
+        word-break: break-all;
+
+    }
+    input{
+        width: auto;
+        max-width:260px;
+    }
+}
+@media only screen and (max-width:124px){
+    p{
+        font-size: smaller;
+    }
+    footer{ 
+        margin-top: 50.5ch;}
+    .gradient-overlay{
+        width: min-content;
+        height: min-content;
+        align-items:center;
+        width: 100%;
+        min-width: max-content;
+
+    }
+    p{font-size: small;}
+    footer a{
+        font-size: 15px;
+    }
+    .gradient {
+        align-self: center;
+        width: min-content;
+        height:130%;
+        min-width: 100%;
+        
+        /* min-height: 6000px; */
+    }
+    b{
+        word-break: break-all;
+
+    }
+    input{
+        width: auto;
+        max-width:260px;
+    }
+}
+@media only screen and (max-width:106px){
+    p{
+        font-size: smaller;
+    }
+    footer{ 
+        margin-top: 60.5ch;}
+    .gradient-overlay{
+        width: min-content;
+        height: min-content;
+        align-items:center;
+        width: 100%;
+        min-width: max-content;
+
+    }
+    p{font-size: small;}
+    footer a{
+        font-size: 15px;
+    }
+    .gradient {
+        align-self: center;
+        width: min-content;
+        height:130%;
+        min-width: 100%;
+        
+        /* min-height: 6000px; */
+    }
+    b{
+        word-break: break-all;
+
+    }
+    input{
+        width: auto;
+        max-width:260px;
+    }
+}
+@media only screen and (max-width:96px){
+    p{
+        font-size: smaller;
+    }
+    footer{ 
+        margin-top: 61.5ch;}
+    .gradient-overlay{
+        width: min-content;
+        height: min-content;
+        align-items:center;
+        width: 100%;
+        min-width: max-content;
+
+    }
+    p{font-size: small;}
+    footer a{
+        font-size: 15px;
+    }
+    .gradient {
+        align-self: center;
+        width: min-content;
+        height:130%;
+        min-width: 100%;
+        
+        /* min-height: 6000px; */
+    }
+    b{
+        word-break: break-all;
+
+    }
+    input{
+        width: auto;
+        max-width:260px;
+    }
+}
