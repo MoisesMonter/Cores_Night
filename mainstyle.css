@@ -381,3 +381,9 @@ input {
         margin-top: 11.05ch;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos móveis */
+    footer{ 
+        margin-top: 5.5ch;}
+  }
