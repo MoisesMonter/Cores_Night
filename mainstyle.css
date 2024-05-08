@@ -382,8 +382,37 @@ input {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:400px){
     /* Estilos para dispositivos móveis */
+    p{
+        font-size: smaller;
+    }
     footer{ 
-        margin-top: 5.5ch;}
+        margin-top: 15.5ch;}
+    .gradient-overlay{
+        width: min-content;
+        height: min-content;
+        align-items:center;
+        width: 100%;
+        min-width: max-content;
+
+    }
+    p{font-size: small};
+
+    .gradient {
+        align-self: center;
+        width: min-content;
+        height:130%;
+        min-width: 100%;
+        
+        /* min-height: 6000px; */
+    }
+    b{
+        word-break: break-all;
+
+    }
+    input{
+        width: auto;
+        max-width:260px;
+    }
   }
