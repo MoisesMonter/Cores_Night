@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-   
+    font-size: 25px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: azure;
-    font-size: 25px;
+    
     list-style-type: none;
     font-family:'Roboto', sans-serif;
 }
-body{background-color: #111010C7; }
+
 p{
     /* margin-top: 10px; */
     margin: 10px;
@@ -36,11 +36,6 @@ header {
     margin: 0px;
 }
 
-a{
-    background-color: #000000;
-border-radius: 2px;
-padding: 0px 3px 0px 3px;
-}
 
 #button_participant{
     color: azure;
@@ -89,6 +84,41 @@ li#participants li button{
     color:rgb(41, 41, 41);
     
 }
+body{background-color: #000000C7;     height: 80px; }
+.gradient {
+    background-image: url("image.jpeg");
+    background-size: 150% auto;
+    animation: colors 15s  infinite;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    
+    height:100%;
+    /* min-height: 6000px; */
+}
+
+footer {
+    background-color: #0B0B0BC4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 3.56ch;
+
+}
+
+footer a {
+    color: slateblue;
+}
+
+.footercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .gradient-overlay {
     background: linear-gradient(35deg, 
@@ -98,13 +128,12 @@ li#participants li button{
     rgba(19, 19, 19, 0.938),    
     rgba(7, 7, 7, 0.91),
     rgba(6,6,6)
-);
-width: 100%;
-height: 150%;
-background-size: 350% 350%;
-animation: colors 10s ease infinite;
-display: flex;
-flex-direction: column;
+    );
+    width: 100%;
+    height: 100%;
+    background-size: 350% 150%;
+    animation: colors 10s ease infinite;
+
 }
 
 h1, h3{
@@ -113,13 +142,11 @@ h1, h3{
  padding:10px;
  border-radius: 10px;
 }
-.gradient {
-    background-image: url("image.jpeg");
-    background-size: 150% 100%;
-    animation: colors 15s  infinite;
-    display: flex;
-    flex-direction: column;
+input{
+    background-color: #1d1d1e;
+    color:white;
 }
+
 
 @keyframes colors {
     0% {
@@ -158,7 +185,7 @@ label {
 }
 
 input {
-    color: black;
+
     font-size: 17px;
     width: 370px;
     height: 30px;
@@ -223,24 +250,134 @@ input {
     padding-bottom: 20px;
 }
 
-footer {
-    padding: 20px;
-    margin-bottom: 250px;
-}
 
-footer a {
-    color: purple;
-}
-
-.footercontainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .color-ball {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin: 10px;
+}
+
+
+
+@media screen and (min-width: 1580px) { /* 90% */
+    *{
+        font-size: 30px;
+    }
+    p{font-size: 25px;}
+    a{font-size: 30px;}
+    footer ul li a{font-size: 15px;}
+    input {
+
+        font-size: 19px;
+        width: 470px;
+        height: 40px;
+        align-items: flex-start;
+    }
+  }
+@media screen and (min-width: 1780px) { /* 80% */
+    *{
+        font-size: 35px;
+    }
+    p{font-size: 32px;}
+    a{font-size: 31px;}
+    footer ul li a{font-size: 18px;}
+    input {
+
+        font-size: 22px;
+        width: 570px;
+        height: 40px;
+        align-items: flex-start;
+    }
+  }
+@media screen and (min-width: 1980px) { /* 75% */
+    *{
+        font-size: 40px;
+    }
+    p{font-size: 34px;}
+    a{font-size: 33px;}
+    footer ul li a{font-size: 20px;}
+    input {
+
+        font-size: 24px;
+        width: 570px;
+        height: 40px;
+        align-items: flex-start;
+    }
+    footer{
+        margin-top: 3.61ch;
+    }
+  }
+@media screen and (min-width: 2080px) { /* 67% */
+    *{
+        font-size: 50px;
+    }
+    p{font-size: 40px;}
+    a{font-size: 38px;}
+    footer ul li a{font-size: 20px;}
+    input {
+
+        font-size: 27px;
+        width: 570px;
+        height: 50px;
+        align-items: flex-start;
+    }
+    footer{
+        margin-top: 3.65ch;
+    }
+  }
+@media screen and (min-width: 2180px) { /* 50%*/
+    *{
+        font-size: 70px;
+    }
+    p{font-size: 50px;}
+    a{font-size: 48px;}
+    footer ul li a{font-size: 28px;}
+    input {
+
+        font-size: 37px;
+        width: 770px;
+        height: 70px;
+        align-items: flex-start;
+    }
+    footer{
+        margin-top: 6.25ch;
+    }
+}
+@media screen and (min-width: 3680px) { /* 50%*/
+    *{
+        font-size: 100px;
+    }
+    p{font-size: 90px;}
+    a{font-size: 88px;}
+    footer ul li a{font-size: 28px;}
+    input {
+
+        font-size: 57px;
+        width: 1070px;
+        height: 110px;
+        align-items: flex-start;
+    }
+    footer{
+        margin-top: 9.23ch;
+    }
+}
+@media screen and (min-width: 4680px) { /* 50%*/
+    *{
+        font-size: 140px;
+    }
+    p{font-size: 110px;}
+    a{font-size: 108px;}
+    footer ul li a{font-size: 28px;}
+    input {
+
+        font-size: 57px;
+        width: 1570px;
+        height: 140px;
+        align-items: flex-start;
+    }
+    footer{
+        margin-top: 11.05ch;
+    }
 }
