@@ -10,7 +10,7 @@
     list-style-type: none;
     font-family:'Roboto', sans-serif;
 }
-body{background-color: black; }
+body{background-color: #111010C7; }
 p{
     /* margin-top: 10px; */
     margin: 10px;
@@ -35,9 +35,13 @@ header {
     width: auto;
     margin: 0px;
 }
-a{background-color: #000000;
+
+a{
+    background-color: #000000;
 border-radius: 2px;
-padding: 0px 3px 0px 3px;}
+padding: 0px 3px 0px 3px;
+}
+
 #button_participant{
     color: azure;
     background: linear-gradient(45deg, 
@@ -226,6 +230,12 @@ footer {
 
 footer a {
     color: purple;
+}
+
+.footercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .color-ball {
