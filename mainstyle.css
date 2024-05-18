@@ -84,7 +84,7 @@ li#participants li button{
     color:rgb(41, 41, 41);
     
 }
-body{background-color: #000000C7;     height: 80px; }
+body{background-color: black;     height: 80px; }
 .gradient {
     background-image: url("image.jpeg");
     background-size: 150% auto;
