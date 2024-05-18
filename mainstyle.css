@@ -87,10 +87,10 @@ li#participants li button{
 body{background-color: black;     height: 80px; }
 .gradient {
     background-image: url("image.jpeg");
-    background-size: 150% auto;
+    background-size: 200% auto;
     animation: colors 15s  infinite;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     display: flex;
     flex-direction: column;
     
